@@ -1,0 +1,10 @@
+gro-nass record — chain head digest
+taken: 2026-09-22T06:11:31.276Z
+digest: 7639ec66ea855914259cb6231a33adf4fdced2827710afefe2804469932a9cdf
+chains verified row 1 to head: 7 of 9
+rows in those chains: 7
+
+The digest is over every verified chain's head. No repository hash appears here: since the door
+enrols a sender on its first signed row, the set includes repositories belonging to people who
+did not ask to be named, and a repository hash is an identifier. Change any head and this value
+moves, which is what the entry is for.
