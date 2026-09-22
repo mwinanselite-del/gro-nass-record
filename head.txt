@@ -1,0 +1,6 @@
+gro-nass record — chain head digest
+date: 2026-09-22
+digest: 1d77f5d435764d5db4addd7f70fa1c39b79a6e213f6b57626a7bedaa957f1006
+heads:
+  h:7c6e8675b1166e81 fccedd13d693b0d14e76500a77907513e12d67c70d6fb2d50834a75a601c4a0c
+chains verified row 1 to head: 1
