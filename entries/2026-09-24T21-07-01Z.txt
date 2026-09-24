@@ -1,0 +1,35 @@
+gro-nass record — chain head digest and bench totals
+taken: 2026-09-24T21:07:01.897Z
+digest: 441b42db96520bd2e78c1738b21912394a2c2c2fe5847dc6f995737a761c3de9
+chains verified row 1 to head: 8 of 10
+of the rest: 2 carried no chained rows, 0 did not verify
+rows in those chains: 8
+
+bench totals as of this hour — the figures the page prints, from the same read:
+  shipped engine line (0.4.0 and later): 11,065 repositories, 204,045 commits
+  3,637 row(s) from an engine below 0.4.0 are counted apart and summed into nothing.
+  by engine, at or above the line:
+    0.4.0        87 repositories      1,584 commits
+    0.4.1        50 repositories        911 commits
+    0.4.2        49 repositories        921 commits
+    0.4.3       119 repositories      2,175 commits
+    0.4.4        71 repositories      1,356 commits
+    0.4.5        66 repositories      1,220 commits
+    0.4.6       557 repositories     10,184 commits
+    0.5.0       141 repositories      2,594 commits
+    0.5.1        97 repositories      1,788 commits
+    0.5.2       114 repositories      2,101 commits
+    0.5.3        64 repositories      1,146 commits
+    0.5.4      5355 repositories     98,264 commits
+    0.5.5       832 repositories     15,565 commits
+    0.5.6      2386 repositories     44,039 commits
+    0.5.7       894 repositories     16,674 commits
+    0.5.8       183 repositories      3,523 commits
+  row manifest: c8c4059a2b32abc95353e26680cd6fb4ace5bb8a8de8b43d67b58fae98e57962
+  over 20 row file(s). The shipped figure is the one the site prints.
+
+The digest is over every verified chain's head. No repository hash appears here: since the door
+enrols a sender on its first signed row, the set includes repositories belonging to people who
+did not ask to be named, and a repository hash is an identifier. The bench totals are counts, not
+identifiers, and the manifest digest is over the row files they were read from — change a byte in
+any of them and that value moves.
